@@ -1,0 +1,1527 @@
+@font-face {
+    font-family: 'Reforma';
+    src: url('шрифты/ReformaGroteskMediumC.ttf');
+}
+@font-face {
+    font-family: 'ReformaB';
+    src: url('шрифты/ReformaGroteskBoldC.ttf');
+}
+
+@font-face {
+    font-family: 'ReformaC';
+    src: url('шрифты/ReformaGroteskDemiC.ttf');
+}
+*{
+    margin: 0;
+    padding:0;
+}
+header{
+    width: 100%;
+    height: 1000px;
+    background-image: url(картинки/ФонМашинок.png);
+    background-repeat: no-repeat;
+}
+.text-nav{
+    width: 35%;
+display: flex;
+justify-content: space-between;
+}
+.glav{
+    margin-left: 90px;
+}
+.text{
+    color: white;
+    font-size: 30px;
+    font-family:'Reforma' ;
+    text-decoration: none;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+.logo{
+margin-left: 150px;
+}
+.tx2{
+    height: 455px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+h1{
+    color: #DB3138;
+    font-family: 'ReformaB';
+    font-size: 130px;
+}
+.dots{
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 30px;
+}
+.lorem-nav{
+    margin-top: 30px;
+display: flex;
+justify-content: center;
+}
+.pis{   
+     width: 314px;
+    color: white;
+    font-size: 30px;
+    font-family:'Reforma' ;
+    text-align: center;
+}
+.wrapper{
+    height: 300px;
+    display: flex;
+    align-items: end;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.wi{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 25px;
+    font-family: 'Reforma';
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  .wi span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .wi:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: rgba(219, 49, 56, 1);
+    transition: all .35s;
+  }
+  .wi:hover:after{
+    width: 70%;
+  }
+  .but{
+    display:flex;
+    align-items: end;
+  }
+  .tdshka{
+    border-right: 2px white solid;
+}
+.tableee{
+    width: 100%;
+    height: 160px;
+    text-align: center;
+    border: 1px white solid;
+    border-left: none;
+    border-right: none;
+}
+
+.tdshka{
+    border-right: 2px white solid;
+    width: 640px; 
+}
+
+.white{
+color: white;
+font-family: 'ReformaC';
+font-size: 18px;
+letter-spacing: 0.9px;
+text-transform: uppercase;
+margin-top: -30px ;
+}
+.fourdots3{
+    width: 100%;
+}
+.red{
+    width: 350px;
+    height: 50px;
+    font-family: 'ReformaC';
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #DB3138;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.red1{
+    width: 350px;
+    height: 50px;
+    font-family: 'Reforma';
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #DB3138;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+
+.white1{
+    color: white;
+    font-family: 'ReformaC';
+    font-size: 18px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    margin-top: 10px ;
+ 
+}
+.this-table{
+    height: 466px;
+    display: flex;
+    align-items:end ;
+}
+.sec-1{
+    width: 100%;
+    height: 900px;
+    background-color: rgba(20, 20, 20, 1);
+}
+.achivka{
+    font-size: 45px;
+    width: 550px;
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'ReformaC';
+}
+.lorem-sec1{
+    font-size: 20px;
+    width: 550px;
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Reforma';
+}
+.img-dots{
+    height: 50px;
+    display: flex;
+    align-items: end;
+}
+.lorem-div{
+    height: 150px;
+    display: flex;
+    align-items: end;
+}
+.table11{
+    height: 708px;
+    width: 318px;
+    text-align: center;
+    }
+    .td1{
+        border: 1px white solid;
+        height: 177px;
+    }
+    .red-sec1{
+        color: #DB3138;
+        font-size: 35px;
+        font-weight: 600;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+        line-height: 140%;
+        font-family: 'ReformaC';
+    }
+    
+    .white12{
+        color: white;
+        font-family: 'ReformaC';
+        font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    }
+    .table12{
+        height: 708px;
+        width: 318px;
+        margin-top: 40px;
+        text-align: center;
+        position: relative;
+        right: 5px;
+    }
+    .red2-sec1{
+        color: #DB3138;
+        font-size: 35px;
+        font-weight: 600;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+        line-height: 140%;
+        font-family: 'ReformaC';
+    }
+    
+    .white12{
+        color: white;
+        font-family: 'ReformaC';
+        font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    }
+    .table2-sec1{
+        display: flex;
+        justify-content: right;
+    }
+    .two-tabl-sec1{
+        width: 85%;
+        display: flex;
+        justify-content: right;
+        margin-top: -200px;
+    }
+    .block-text-sec1{
+        width: 40%;
+        height: 310px;
+        display: flex;
+        justify-content: right;
+        align-items: end;
+    }
+    .sec-2{
+        width: 100%;
+        height: 500px;
+        background-color:rgba(20, 20, 20, 1) ;
+    }
+    .main-2{
+        width: 92%;
+        height: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    .main-2-arrow-container-1, .main-2-arrow-container-2{
+        width: 15%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-2-arrow-border{
+        width: 50px;
+        height: 50px;
+        border: 3px solid #DB3138;
+        rotate: 45deg;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #141414;
+        cursor: pointer;
+    }
+    .main-2-arrow-1{
+        rotate: 135deg;
+    }
+    .main-2-arrow-2{
+        rotate: -45deg;
+    }
+    .main-2-img-container-1{
+        width: 416px;
+        height: 420px;
+        background-image: url(img/Rectangle\ 45.png);
+        background-repeat: no-repeat;
+        display: flex;
+        align-self: flex-start;
+        align-items: center;
+        justify-content: end;
+        flex-direction: column;
+    }
+    .main-2-img-container-2{
+        width: 416px;
+        height: 420px;
+        background-image: url(img/Rectangle\ 47.png);
+        background-repeat: no-repeat;
+        display: flex;
+        align-self: flex-start;
+        align-items: center;
+        justify-content: end;
+        flex-direction: column;
+    }
+    .main-2-img-container-3{
+        width: 416px;
+        height: 420px;
+        background-image: url(img/Rectangle\ 49.png);
+        background-repeat: no-repeat;
+        display: flex;
+        align-self: flex-start;
+        align-items: center;
+        justify-content: end;
+        flex-direction: column;
+    }
+    .main-2-img-wall{
+        width: 90%;
+        height: 70px;
+        background-color: #DB3138;
+        margin-top: 50px;
+    
+    }
+    .main-2-img-text{
+        font-size: 18px;
+        color: white;
+        font-family: 'ReformaC';
+        width: 60%;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        line-height: 24px;
+        text-align: center;
+        margin-top: -36px;
+    }
+    .slider{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        left: 0;
+        transition: all ease 1s;
+    }
+    .slider-container{
+        overflow: hidden;
+        width: 85%;
+        height: 420px;
+        display: flex;
+        flex-direction: row;
+    }
+    .block-text-sec3{
+        width: 700px;
+        display: flex;
+        justify-content: right;
+    }
+    .sec-3{
+        width: 100%;
+        height: 830px;
+        background-color: rgba(20, 20, 20, 1);
+    }
+    .text-p1-slider-sec3{
+        font-size: 30px;
+        color: white;
+        font-family: 'ReformaC';
+        margin-top: -50px;
+        margin-left: 70px;
+    }
+    .img1-slider-sec3{
+    display: flex;
+    }
+    .lorem1-slider-sec3{
+        font-size: 25px;
+        width: 500px;
+        color: white;
+        font-family: 'Reforma';
+    }
+    .Material{
+        height: 70px;
+    }
+    .Material-canistra{
+        margin-left: 10px;
+        height: 70px;
+    }
+    .Material-mash{
+        height: 70px;
+    }
+    .pip{
+        margin-left: 80px;
+    }
+    .two-arg{
+    margin-top:80px ;
+    }
+    .tre-arg{
+        margin-top: 60px;
+    }
+    .img-dots-sec3{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 50px;
+    }
+    .block-slid-glav{
+        width: 90%; 
+       margin-top: -600px;
+        display: flex;
+    justify-content: right;
+    }
+    .but-1{
+        width: 50px;
+        background-color: #141414;
+        border:solid 3px #DB3138;
+        rotate:-45deg;
+    }
+    .but-2{
+        width: 50px;
+        background-color: #141414;
+        border:solid 3px #DB3138;
+        rotate:-45deg ;
+    }
+    .strela-1{
+        rotate:45deg ;
+    }
+    .strela-2{
+        rotate:45deg ;
+    }
+    .lorem3-text-sec3{
+        font-size: 25px;
+        color: white;
+        font-family: 'Reforma';
+        text-align: center;
+        width: 400px;
+    }
+    .button-slider-blue-sec3{
+         margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .black{
+        width: 100%;
+        height: 1200px;
+        background-color: #141414;
+    }
+    .lol{
+        display: flex;
+        justify-content: center;
+    }
+    h8{
+        letter-spacing: 2.6px;
+        color: white;
+        font-family:'ReformaC';
+        font-size: 52px;
+    }
+    .bm{
+        width: 300px;
+    }
+    .cl{
+        margin-left: 55px;
+        margin-top: 50px;
+    }
+    .bbt2{
+        display: flex;
+        justify-content: center;
+        margin-right: 30px;
+        margin-top: 100px;
+        gap: 100px;
+    }
+    .ocl{
+        width: 181px;
+        height: 75px;
+        border: none;
+        background-color: #DB3138;
+        color: white;
+    }
+    .ocl2{
+        border: none;
+        background-color: #141414;
+        color: white;
+    }
+    .pw{
+        font-family:'ReformaC';
+        font-size: 32px;
+    }
+    .ks{
+        width: 306px;
+    height: 428px;
+        border: solid 1px white;
+    }
+    .lorem3{
+        width: 226px;
+        color: white;
+        font-family:'ReformaC';
+        font-size: 16px;
+        text-align: center;
+    }
+    .buttt{
+        width: 58px;
+        height: 41px;
+        border: none;
+        background-color: #DB3138;
+        color: white;
+        text-transform: uppercase;
+        margin-left: 70px; 
+    }
+    .podr{
+        font-family:'ReformaC';
+        font-size: 18px;
+    }
+    .pl{
+        color: white;
+        font-family:'ReformaC';
+        text-align: center;
+    }
+    .io{ 
+        margin-top: -400px;
+       margin-left: 70px;
+    }
+    .io2{
+        margin-top: -400px;
+        margin-left: 100px;
+     }
+     .io3{
+        margin-top: -400px;
+        margin-left: 100px;
+     }
+     .io4{
+        margin-top: -400px;
+        margin-left: 80px;
+     }
+     .ysl{
+        margin-top: -400px;
+        display: flex;
+        justify-content: center;
+       margin-top: 100px;
+     }
+     .o{
+        margin-left: 20px;
+        margin-top: 30px
+     }
+     .popa{
+        margin-top: -90px;
+        margin-left: 30px;
+     }
+     .pisa{
+        margin-top: 30px;
+        margin-left: 30px;
+     }
+     .zalupa{
+        margin-top: 10px;
+        margin-left: 50px;
+     }
+     .o2{
+        margin-left: 20px;
+        margin-top: 30px
+     }
+     .popa2{
+        margin-top: -90px;
+        margin-left: 40px;
+     }
+     .pis2{
+        margin-top: 30px;
+        margin-left: 80px;
+     }
+     .zalupa2{
+        margin-top: 10px;
+        margin-left: 50px;
+     }
+     .hu{
+        margin-left: 50px;
+     }
+     .o3{
+        margin-left: 10px;
+        margin-top: 30px
+     }
+     .popa3{
+        margin-top: -90px;
+        margin-left: 20px;
+     }
+     .pis3{
+        margin-top: 30px;
+        margin-left: 80px;
+     }
+     .zalupa3{
+        margin-top: 10px;
+        margin-left: 10px;
+     }
+     .hu1{
+        margin-left: 50px;
+     }
+     .o4{
+        margin-left: 10px;
+        margin-top: 30px
+     }
+     .popa4{
+        margin-top: -90px;
+        margin-left: 20px;
+     }
+     .pis4{
+        margin-top: 30px;
+        margin-left: 80px;
+     }
+     .zalupa4{
+        margin-top: 10px;
+        margin-left: 20px;
+     }
+     .hu2{
+        margin-left: 30px;
+        margin-top: 30px;
+     }
+     .workspace2{
+        width: 1296px;
+        height: 771px;
+        margin: 0 auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .services{
+        width: 636px ;
+        height: 73px ;
+        font-family: 'ReformaC';
+        font-size: 52px;
+        font-weight: 600;
+        line-height: 140%;
+        letter-spacing: 2.6px;
+        text-transform: uppercase;
+        color: white;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .itnotdots13{
+        width: 146px;
+        height: 15px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        position: relative;
+        top: 40px;
+    }
+    
+    .buttons{
+        width: 450px;
+        height: 75px;
+        position: relative;
+        top: 120px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .sticker{
+        width: 180px;
+        height: 75px;
+        background-color: #DB3138;
+        border: none;
+        color: white;
+    }
+    
+    .sticker2{
+        width: 209px;
+        height: 75px;
+        background-color: #141414;
+        border: none;
+        color: white;
+    }
+    
+    .stickertext{
+        font-family: 'ReformaC';
+        font-size: 32px;
+        line-height: 140%;
+        letter-spacing: 1.6px;
+        text-transform: uppercase;
+    }
+    
+    .tdshechka{
+        width: 306px;
+        height: 428px;
+        border: 1px white solid;
+    }
+    
+    .wtf{
+        margin-top: 160px;
+        width: 1296px;
+        height: 430px;
+    }
+    
+    .kartinka{
+        margin-left: 125px;
+        width: 70px;
+        height: 57px;
+        margin-top: 0px;
+    }
+    
+    .bigtexxt{
+        margin-left: 75px;
+        font-family: 'ReformaC';
+        font-size: 24px;
+        line-height: 140%;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+        color: white;
+        margin-top: 28px;
+    }
+    
+    .smoltext{
+        width: 226px;
+        height: 88px;
+        margin: 0 auto;
+        color: white;
+        font-family: 'ReformaC';
+        font-size: 16px;
+        line-height: 140%;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .anotherbutton{
+        width: 60px;
+        height: 41px;
+        margin-left: 100px;
+        margin-top: 25px;
+        background-color: #DB3138;
+        border: none;
+    }
+    .textlevee{
+        font-family: 'ReformaC';
+        font-size: 18px;
+        color: white;
+        line-height: 140%;
+        letter-spacing: 0.9px;
+        text-transform: uppercase;
+        position: relative;
+        left: 20px;
+    }
+    
+    .kartinka2{
+        margin-left: 125px;
+        width: 57px;
+        height: 71px;
+        margin-top: -10px;
+    }
+    
+    .kartinka3{
+        margin-left: 125px;
+        width: 70px;
+        height: 45px;
+        margin-top: 20px;
+    }
+    
+    .kartinka4{
+        margin-left: 125px;
+        width: 70px;
+        height: 70px;
+        margin-top: 0px;
+    }
+.sec-4{
+    width: 100%;
+    height: 900px;
+    background-color: #141414;
+}    
+.section4{
+    width: 100%;
+    height: 900px;
+    background-color: #141414;
+    display: flex;
+}
+
+.firrst1{
+    height: 663px;
+    width: 648px;  
+}
+
+.jester{
+    margin-left: 100px;
+}
+
+.section5{
+    width: 100%;
+    height: 1028px;
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+}
+
+.font{
+    font-family: 'ReformaC';
+    color: white;
+    font-size: 52px;
+    line-height: 140%;
+    letter-spacing: 2.6px;
+    text-transform: uppercase;
+}
+
+.sometext{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.section6{
+    width: 100%;
+    height: 1000px;
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+}
+
+.centerplease{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.margin{
+    margin-top: 170px;
+}
+
+.another{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.sonson{
+   width: 147px;
+   height: 15px;
+}
+
+.finalwork{
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.twoinputs{
+    width: 700px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs{
+    width: 340px;
+    height: 47px;
+    background-color: #141414;
+    color: white;
+    font-family: 'ReformaC';
+    font-size: 20px;
+    border: 1px white solid;
+    text-transform: uppercase;
+}
+
+.inputandlinks{
+    width: 700px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input2{
+    width: 550px;
+    height: 200px;
+    background-color: #141414;
+    color: white;
+    font-family: 'ReformaC';
+    font-size: 20px;
+    border: 1px white solid;
+    text-transform: uppercase;
+    text-align:justify;
+}
+
+.miniwork{
+    width: 60px;
+    height: 200px;
+}
+
+.lol{
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pic{
+    width: 30px;
+    height: 30px;
+}
+
+.margin2{
+    margin-top: 37px;
+}
+
+.buttonandinfo{
+    width: 700px;
+    height: 70px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.but{
+    background-color: #DB3138;
+    border: none;
+    font-family: 'ReformaC';
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.itired{
+    width: 350px;
+    height: 70px;
+}
+
+.firstline{
+    display: flex;
+    color: white;
+    font-family: 'ReformaC';
+    font-size: 20px;
+}
+
+.mg{
+    margin-left: 10px;
+}
+
+.secondline{
+    display: flex;
+    color: white;
+    font-family: 'ReformaC';
+    font-size: 20px;
+}
+
+.df{
+    display: flex;
+}
+
+.mg2{
+    margin-left: 40px;
+}
+
+.mgt{
+    margin-top: 15px;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+}
+.almostfinal{
+     width: 100%;
+    height: 100px; 
+    margin-top: 0px;
+    border-top: 1px solid white;
+    background-color: #141414;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lasttext{
+font-family: 'ReformaC';
+font-size: 16px;
+line-height: 140%; 
+letter-spacing: 0.8px;
+text-transform: uppercase;
+color: gray;
+margin-top: auto;
+margin-bottom: auto;
+}
+
+.fourlinks{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.mgr{
+    margin-right: 30px;
+}
+.slid-jelt{
+    height: 600px;
+    display: flex;
+    align-items: end;
+    margin-left: 400px;
+}
+.link-mgr{
+    text-decoration: none;
+    color: white;
+    font-family: 'ReformaC';
+    font-size: 20px;
+}
+.button-slider-jelti-sec4{
+    margin-top: 20px;
+   display: flex;
+   justify-content: space-between;
+}
+.img1-slider-sec4{
+    display: flex;
+    }
+    .lorem1-slider-sec4{
+        font-size: 25px;
+        width: 500px;
+        color: white;
+        font-family: 'Reforma';
+    }
+    .lorem3-text-sec4{
+        font-size: 25px;
+        color: white;
+        font-family: 'Reforma';
+        text-align: center;
+        width: 400px;
+    }
+.img2-slider-sec3{
+
+}
+@media screen and (max-width:430px){
+    header{
+        width: 100%;
+    }
+    .block-slider-2 {
+        margin-top: 700px}
+        .car-mash-jelti{
+            width: 200px;
+            height: 200px;
+            margin-left: 89px;
+            margin-top: -45px;
+        }
+        .button-slider-jelti-sec4 {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .obshi-block-slider2{
+            width: 400px;
+        }
+        .block-text-sec4{
+            height: 570px;
+    display: flex;
+    align-items: end;
+    margin-top: 200px;
+        }
+        .lorem3-text-sec4 {
+            width: 200px;
+            font-size: 16px;
+        }
+        .lorem1-slider-sec4{
+            font-size: 17px;
+            text-align: center;
+            width: 312px;
+            margin-left: 40px;
+        }
+        .vtoroi-arg {
+            margin-right: 50px;
+        }
+    nav{
+        width: 430px;
+    }
+    .text-nav{
+        width:300px;
+     gap: 20px;
+    }
+    .text{
+        font-size: 20px;
+    }
+    .log{
+           height: 30px;
+        width: 30px;
+        margin-right: 90px;
+    }
+    .tdshka{
+        width: 100px;
+    }
+    .fu{
+        width: 100px;
+    }
+    .white{
+    width: 120px;
+    margin-left: 20px;
+    } 
+    .red{
+        width: 100px;
+        font-size: 15px;
+    } 
+    .red1{
+        width: 115px;
+        height: 50px;
+        font-size: 15px;
+    }
+    .tx2{
+        height: 293px;
+    }
+    h1{
+        font-size: 70px;
+        text-align: center;
+    }
+    .wrapper{
+        height: 6px;
+    }
+    .table11{
+        width: 100px;
+        height: 50px;
+       }
+       .table12{
+        width: 100px;
+        height: 50px;
+       }
+       .white12{
+        font-size: 9px;
+       }
+     .td1{
+height: 88px;
+     }
+     .red-sec1{
+        font-size: 20px;
+     }
+     .red2-sec1{
+        font-size: 20px;
+     }
+     .pid{
+      height: 20px;
+     }
+     .two-tabl-sec1{
+        margin-top: -450px;
+        margin-left: 40px;
+     }
+     .sec-1 {
+        height: 300px;
+     }
+     .block-text-sec1{
+        margin-left: 44px;
+     }
+     .achivka{
+        font-size: 24px;
+        width: 198px;
+        margin-top: -450px;
+     }
+     .dots-sec1{
+        height: 10px;
+     }
+     .sec-2{
+        height: 146px;
+     }
+     .lorem-sec1 {
+        font-size: 14px;
+        width: 166px;}
+        .lorem-div {
+            height: 181px;
+            display: flex;
+            align-items: end;
+        }
+        div.main-2{
+            width: 430px;
+            height: 140px;
+        }
+        div.main-2-arrow-container-1, div.main-2-arrow-container-2{
+            width: 50px;
+            height: 140px;
+        }
+        button.prev, button.next{
+            width: 18px;
+            height: 18px;
+            border: 1px solid #DB3138;
+        }
+        img.main-2-arrow-1, img.main-2-arrow-2{
+            width: 4px;
+        }
+        div.slider-container{
+            width: 320px;
+            height: 140px;
+        }
+        div.slider{
+            width: 320px;
+            height: 140px;
+        }
+        div.main-2-img-container-1, div.main-2-img-container-2, div.main-2-img-container-3{
+            width: 100px;
+            height: 140px;
+            background-size: 120px;
+            background-position: top;
+        }
+        div.main-2-img-wall{
+            width: 80px;
+            height: 20px;
+        }
+        p.main-2-img-text{
+            width: 80px;
+            height: 40px;
+            font-size: 8px;
+            line-height: 8px;
+            letter-spacing: 0;
+            margin-top: -10px;
+        }
+        .car-mash{
+            width: 200px;
+            height: 200px;
+            margin-left: 89px;
+            margin-top: -45px
+        }
+        .block-text-sec3{
+            width: 430px;
+    display: flex;
+    justify-items: left;
+        }
+        .text-p1-slider-sec3{
+            font-size: 20px;
+            text-align: center;
+            margin-right: 30px;
+
+        }
+        .lorem1-slider-sec3{
+            font-size: 17px;
+            text-align: center;
+            width: 312px;
+            margin-left: 40px
+        }
+        .Znachok-Mashin-slider1{
+            width: 40px 
+        }
+        .dots-sec3{
+            width: 100px;
+            margin-left: 40px;
+        }
+        .Material {
+            height: 33px;
+        }
+        .Material-canistra {
+            height: 36px;}
+            .two-arg {
+                margin-top: 45px;
+            }
+            .first-arg{
+                margin-right: 50px;
+            }
+            .lorem3-text-sec3{
+                width: 200px;
+                font-size: 16px;
+            }
+            .img1-slider-blu{
+                margin-right: 70px;
+            }
+        .block-slider-1{
+       margin-top: 700px;
+        }
+        .workspace2{
+            width: 430px;
+            height: 1000px;
+            margin: none;
+            margin-top: 0px;
+            margin-bottom: none;
+            display: flex;
+            flex-direction: column;
+        }
+        .services{
+            width: 430px ;
+            height: 73px ;
+            font-family: 'ReformaC';
+            font-size: 52px;
+            font-weight: 600;
+            line-height: 140%;
+            letter-spacing: 2.6px;
+            text-transform: uppercase;
+            color: white;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .buttons{
+            width: 370px;
+            height: 75px;
+            top: 80px;
+            margin: 0 auto;
+        }
+        .sticker2{
+            width: 180px;
+        }
+        .wtf{
+            margin-top: 470px;
+            width: 430px;
+            height: 430px;
+            transform: rotate(90deg);
+            position: relative;
+            right: 245px;
+        }
+        .tdshechka{
+            width: 306px;
+            height: 458px;
+            border: 1px white solid;
+            transform: rotate(-90deg);
+        }
+        .kartinka{
+            margin-left: 80px;
+            width: 70px;
+            height: 57px;
+            position: relative;
+            bottom: 90px;
+        }
+        .bigtexxt{
+            margin-left: 0px;
+            font-size: 22px;
+            letter-spacing: 1.2px;
+            text-align: center;
+            position: relative;
+            bottom: 90px;
+            margin-top: 0;
+        }
+        .smoltext{
+            width: 226px;
+            height: 88px;
+            margin: 0 auto;
+            font-size: 12px;
+            position: relative;
+            bottom: 85px;
+        }
+        .anotherbutton{
+            position: relative;
+            bottom: 135px;
+            left: -15px;
+        }
+        .textlevee{
+            font-size: 12px;
+            left: 0px;
+        }
+        .kartinka2{
+            margin-left: 90px;
+            position: relative;
+            bottom: 90px;
+        }
+        .kartinka3{
+            margin-left: 90px;
+            position: relative;
+            bottom: 90px;
+        }
+        .kartinka4{
+            margin-left: 90px;
+            position: relative;
+            bottom: 90px;
+        }
+        .section4{
+            width: 430px;
+            height: 835px;
+            background-color: #141414;
+            display: flex;
+        }
+        .firrst1{
+            width: 430px;
+            display: flex;
+        }
+        .jester{
+            display: flex;
+            flex-direction: column;
+            width: 430px;
+            margin-left: 0;
+        }
+        .section5{
+            display: none;
+        }
+        .section6{
+            width: 430px;
+            height: 710px;
+            background-color: #141414;
+            display: flex;
+            flex-direction: column;
+        }
+        .centerplease{
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+        }
+        .margin{
+            margin-top: 20px;
+        }
+        .font{
+            height: 50px;
+            font-size: 35px;
+            text-align: center;
+        }
+        .fourdots4{
+            margin-top: -28px;
+        }
+        .finalwork{
+            width: 430px;
+            height: 400px;
+            margin: 0 auto;
+            margin-top: 50px;
+        }
+        .twoinputs{
+            width: 430px;
+            height: 150px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+        .inputandlinks{
+            width: 430px;
+            height: 130px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+        .input2{
+            width: 341px;
+            height: 47px;
+            font-size: 20px;
+            margin: 0 auto;
+            margin-top: 15px;
+        }
+        .miniwork{
+            width: 430px;
+            height: 50px;
+            display: flex;
+        }
+        .margin2{
+            margin-top: 0px;
+        }
+        .pic{
+            width: 20px;
+            height: 20px;
+        }
+        .buttonandinfo{
+            width: 430px;
+            height: 70px;
+            margin-top: 60px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .itired{
+            width: 280px;
+            height: 70px;
+        }
+        .slider-next{
+            position: relative;
+            right: 5px
+        }
+        .nn{
+            position: relative;
+            right: 10px;
+        }
+        .almostfinal{
+            width: 430px;
+           height: 100px; 
+           margin-top: 0px;
+           border-top: 1px solid white;
+           background-color: #141414;
+           display: flex;
+           flex-direction: column;
+           justify-content: space-around;
+       }
+       .lasttext{
+        text-align: center;
+       }
+       .fourlinks{
+        display: flex;
+        justify-content: space-around;
+       }
+       footer{
+        width: 430px;
+        height: 100px;
+        }
+        .sec-4{
+            height: 1700px;
+        }
+        .pomogite{
+            
+        }
+    }
